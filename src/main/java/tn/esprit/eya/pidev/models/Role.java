@@ -1,4 +1,4 @@
-package tn.esprit.eya.pidev.entity;
+package tn.esprit.eya.pidev.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

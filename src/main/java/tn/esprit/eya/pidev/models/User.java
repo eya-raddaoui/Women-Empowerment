@@ -1,4 +1,4 @@
-package tn.esprit.eya.pidev.entity;
+package tn.esprit.eya.pidev.models;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -35,6 +35,8 @@ public class User {
 	
 	private String password;
 
+	
+	
 	@ManyToMany(fetch = FetchType.LAZY)
 	@JoinTable(	name = "user_roles", 
 				joinColumns = @JoinColumn(name = "user_id"), 
